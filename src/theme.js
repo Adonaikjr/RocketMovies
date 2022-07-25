@@ -7,7 +7,7 @@ export default {
       BACKGROUND_700: "#262529",
       BACKGROUND_600: "#1C1B1E",
       BACKGROUND_500: "rgba(255, 133, 155, 0.05)",
-
+      
       WHITE: "#F4EDE8",
       CORLOGO: "#FF859B",
   

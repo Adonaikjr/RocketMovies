@@ -2,17 +2,13 @@ import styled from 'styled-components';
 
 export const Container = styled.header `
 border-bottom: solid 1px ${({theme}) => theme.COLORS.BORDER};
-height: 116px; 
+height: 7.25rem; 
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
-`;
-export const Content = styled.div `
-  display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-  h3{
+width: 100%;
+flex-wrap: wrap;
+h3{
     font-family: Roboto Slab;
 font-size: 24px;
 font-weight: 700;
@@ -22,31 +18,32 @@ color: ${({theme}) => theme.COLORS.CORLOGO};
 
 `;
 
-export const BoxB = styled.div`
+export const Justifyinput = styled.div`  
+  width: 40rem;
+  padding-left: 12px;
+
+`
+
+
+
+export const BoxA = styled.div`
 display: flex;
-width: 70%;
-justify-content: space-between;
+flex-direction: row-reverse;
 align-items: center;
-div{
-    width: 663px;
-    padding-left: 12px;
+img{
+  :hover {
+    transform: scale(1.1);
+  }
 }
 `;
 
-export const BoxA = styled.div`
 
-`;
-
-export const Section = styled.section`
-    display: flex;
-    flex-direction: row-reverse;
-`;
 
 export const ConfigImg = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: flex-end;
+text-align: right;
 margin-right: 12px;
 a{
     text-decoration: none;

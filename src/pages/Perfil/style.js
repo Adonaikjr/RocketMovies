@@ -13,6 +13,9 @@ text-align: center;
 
 height:144px;
 p{
+    :hover {
+        transform: scale(1.1);
+    }
     margin-left: 16px;
     img{
         margin-right: 5px;
@@ -22,6 +25,7 @@ background-color: ${({theme}) => theme.COLORS.BACKGROUND_500};
 a{
     text-decoration: none;
     color: ${({theme}) => theme.COLORS.CORLOGO};
+   
 }
 display: flex;
 flex-direction: column;

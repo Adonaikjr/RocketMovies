@@ -1,5 +1,5 @@
 import { Container, BoxA, BoxB, Create_Account, SignUp, StyleImage, Form } from "./style.js";
-import Imgsecond from '../../img/secondimg.svg'
+
 import { Input } from "../../components/Input/index.jsx";
 import { FaRegEnvelope } from "react-icons/fa";
 import { FaUnlock } from "react-icons/fa";
@@ -26,9 +26,7 @@ export function Login  (){
                         </Create_Account>
                     </BoxB>
             </SignUp>
-            <StyleImage>
-                <img src={Imgsecond}/>
-            </StyleImage>
+            <StyleImage/>
         </Container>
     )
 }

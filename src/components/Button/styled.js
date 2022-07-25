@@ -7,4 +7,7 @@ width: 100%;
 border: none;
 border-radius: 10px;
 cursor: pointer;
+:hover {
+    transform: scale(1.1);
+}
 `;

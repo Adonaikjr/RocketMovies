@@ -1,9 +1,9 @@
 import styled from "styled-components";
-
+import Imgsecond from '../../img/secondimg.svg'
 
 
 export const Container = styled.div`
-max-width: 100%;
+width: 100%;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
@@ -59,6 +59,7 @@ text-align: center;
     text-decoration: none;
     color: ${({theme}) => theme.COLORS.CORLOGO};
 }
+margin-bottom: 1rem;
 
 `
 
@@ -75,9 +76,9 @@ align-items: center;
 
 export const StyleImage = styled.div`
 
-    margin: 0 auto;
-    padding: 0 auto;
-
+   background-image: url(${Imgsecond});
+   width: 50%;
+   height: 100vh;
 `
 
 export const Form = styled.form`
