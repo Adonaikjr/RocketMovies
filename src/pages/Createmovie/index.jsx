@@ -32,7 +32,9 @@ export function Createmovie(){
                     <div className="ColorsButton">
                      <Button title='Excluir filme'/>
                     </div> 
+                    <Link to='/moviepreview'>
                     <Button title='Salvar alterações'/>
+                    </Link>
                 </footer>
             </Form>
         </Container>

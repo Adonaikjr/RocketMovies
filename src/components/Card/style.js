@@ -12,7 +12,7 @@ h1{
     }
 }
 p{
-    margin-top: 3rem;
+  
 }
 
 `
@@ -20,11 +20,13 @@ export const Content = styled.div`
 display: flex;
 align-items: center;
 flex-wrap: wrap;
-justify-content: space-evenly;
-width: 22.56rem;
+justify-content: flex-start;
+gap:12px;
+width: 100%;
 height: 1.18rem; 
-
-
+margin-top:2rem;
+padding-left:7.75rem;
+margin-bottom: 2.5rem;
 
 img{
     height: 16px;
@@ -33,7 +35,7 @@ img{
 }
 
 svg{
-    color: ${({theme}) => theme.COLORS.CORLOGO};
+    background: ${({theme}) => theme.COLORS.COLOGO};
 }
 
 `

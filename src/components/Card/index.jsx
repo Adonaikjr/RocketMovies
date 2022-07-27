@@ -20,7 +20,7 @@ export function Card ({title, text, children}){
 export function ComponentImgProfile({text, time}){
     return(
         <Content>
-        <img src={Imgperfil} alt="imagem de perfil"/>
+            <img src={Imgperfil} alt="imagem de perfil"/>
             {text}
             <FaRegClock/>
             {time}
