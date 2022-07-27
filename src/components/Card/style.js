@@ -14,9 +14,26 @@ h1{
 p{
     margin-top: 3rem;
 }
-section{
-    margin-top: 1rem;
-    display: flex;
-    flex-wrap: wrap;
+
+`
+export const Content = styled.div`
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-evenly;
+width: 22.56rem;
+height: 1.18rem; 
+
+
+
+img{
+    height: 16px;
+    width: 16px;
+   
 }
+
+svg{
+    color: ${({theme}) => theme.COLORS.CORLOGO};
+}
+
 `

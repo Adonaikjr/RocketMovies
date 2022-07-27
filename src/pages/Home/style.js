@@ -10,6 +10,7 @@ export const Content=styled.div`
   height: 45rem;
   margin-top: 5.5rem;
   margin-bottom: 24px;
+
 `;
 export const BoxA = styled.div`
     display: flex;
@@ -24,6 +25,7 @@ export const BoxA = styled.div`
         margin-top: 5.5rem;
         margin-left: 12px;
     }
+
 `;
 
 export const BoxB = styled.div`
@@ -39,7 +41,11 @@ export const BoxB = styled.div`
     flex-wrap: wrap;
     background: ${({theme}) => theme.COLORS.BACKGROUND_500};
     
-    
+    section{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
     
 `
 

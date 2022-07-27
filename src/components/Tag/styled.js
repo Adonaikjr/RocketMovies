@@ -8,6 +8,6 @@ export const Container = styled.div`
   padding: 5px;
   border-radius: 5px;
   width: 7.5rem;
-  
+  margin-left: 1rem;
   
 `;

@@ -1,19 +1,31 @@
-import { Container } from "./style";
+import { Container, Content } from "./style";
 import star from '../../img/star-1.svg'
-import { Tag } from "../Tag";
-export function Card (props){
+import Imgperfil from '../../img/perfil.svg';
+import { FaRegClock } from 'react-icons/fa'
+
+
+export function Card ({title, text, children}){
     return(
         <Container>
             <h1>
-                {props.title}
+                {title}
                 <img src={star}/>
             </h1>
-            <p>{props.text}</p>
-            <section>
-                <Tag title='Ficção Científica'/>
-                <Tag title='Ficção Científica'/>
-                <Tag title='Ficção Científica'/>
-            </section>
+            {text}
+            {children}
         </Container>
     )
+};
+
+export function ComponentImgProfile({text, time}){
+    return(
+        <Content>
+        <img src={Imgperfil} alt="imagem de perfil"/>
+            {text}
+            <FaRegClock/>
+            {time}
+        </Content>
+    )
 }
+
+

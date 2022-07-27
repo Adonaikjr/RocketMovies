@@ -1,41 +1,21 @@
-import { Header } from "../../components/Header";
-import { Container, Form, Section } from "./styled";
-import { Link } from 'react-router-dom';
-import { FaArrowLeft } from 'react-icons/fa'
-import { Input } from "../../components/Input";
-import { Button } from "../../components/Button";
-
-import { Highlighter } from '../../components/Highlighter'
-import { Newbookmark } from "../../components/Highlighter";
-
-
-
+import { Card, ComponentImgProfile } from "../../components/Card";
+import { Container, Justifycard, JustifyTag } from "./styled";
+import { Link } from "react-router-dom";
+import { FaArrowLeft } from "react-icons/fa";
+import { Tag } from "../../components/Tag";
 
 export function Moviepreview(){
+    
     return(
         <Container>
             <p><Link to ='/home'> <FaArrowLeft/> Voltar</Link></p>
-            <Form>
-                <h1>Novo Filme</h1>
-                <header >
-                    <Input placeholder='Titúlo'/>
-                    <Input placeholder='Sua nota (de 0 a 5)'/>
-                </header>
-                <article>
-                    <Input placeholder='Observações'/>
-                </article>
-                <h3>Marcadores</h3>
-                <Section>
-                    <Highlighter title='React'/>
-                    <Newbookmark title='Novo marcador'/>
-                </Section>
-                <footer>
-                    <div className="ColorsButton">
-                     <Button title='Excluir filme'/>
-                    </div> 
-                    <Button title='Salvar alterações'/>
-                </footer>
-            </Form>
+            <Justifycard><Card title='Interestelar'/></Justifycard>    
+                <ComponentImgProfile text='Por adonai junior'time='23/05/22 às 08:00'/>
+                <JustifyTag>
+                    <Tag title='Ficção'/>
+                    <Tag title='Ação'/>
+                    <Tag title='Terror'/>
+                </JustifyTag>                    
         </Container>
     )
 }
