@@ -3,7 +3,7 @@ import { Createmovie } from '../pages/Createmovie'
 import { Home } from '../pages/Home'
 import { Login } from '../pages/login'
 import { Perfil } from '../pages/Perfil'
-import { Moviepreview } from '../pages/Moviepreview'
+import { Moviepreview } from '../pages/MoviePreview'
 
 export function AppRoutes(){
     return(
