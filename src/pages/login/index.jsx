@@ -22,7 +22,7 @@ export function Login  (){
                         <Button title='Entrar'/>
                         </Form>
                         <Create_Account>
-                            <Link to='/create'>Criar Conta</Link>
+                            <Link to='/home'>Criar Conta</Link>
                         </Create_Account>
                     </BoxB>
             </SignUp>
