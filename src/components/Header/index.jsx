@@ -11,7 +11,7 @@ export function Header (){
             <Input type="text" placeholder="Pesquisar pelo título"/>
             </Justifyinput>     
                 <BoxA>
-                        <Link to='/profile'><img src={Perfil} alt='Perfil'/></Link>
+                        <Link to='/profile'><img src='http://github.com/adonaikjr' alt='Perfil'/></Link>
                         <ConfigImg>
                             <h4>Rodrigo Gonçalves</h4>
                             <Link to='/'>Sair</Link>
